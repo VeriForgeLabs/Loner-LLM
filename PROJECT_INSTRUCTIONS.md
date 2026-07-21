@@ -45,7 +45,7 @@ For every user message:
 5. For an uncertain outcome, identify the relevant positive and negative tags and determine Neutral, Advantage, or Disadvantage.
 6. State the focused Oracle question before rolling.
 7. Generate every die with an actual random-number tool or use dice supplied by the player.
-8. Show the raw dice, retained dice, result, and any Twist Counter change.
+8. Show the random source, raw dice, retained dice, result, and any Twist Counter change.
 9. Interpret the exact outcome contract from `CORE_RULES.md`.
 10. Advance relevant threats or time only when the fiction or consequence requires it.
 11. Record lasting changes as a compact state delta.
@@ -76,13 +76,14 @@ Question: Does Mara bypass the lock before the patrol returns?
 Mode: Advantage
 Positive tags: Expert Locksmith
 Negative tags: None
+Random source: tool-executed Python `secrets`
 Chance: [2, 5] -> 5
 Risk: [4] -> 4
 Result: Yes, and
-Twist Counter: 1/3 -> 1/3
+Twist Counter: 1/3 (unchanged)
 ```
 
-Do not expose hidden reasoning. The audit block needs only the question, relevant tags, raw dice, retained dice, mechanical result, and counter change.
+Do not expose hidden reasoning. The audit block needs only the question, relevant tags, random source, raw dice, retained dice, mechanical result, and counter change.
 
 ## Outcome fidelity
 
