@@ -69,10 +69,11 @@ Question: Does Mara bypass the lock before the patrol returns?
 Mode: Advantage
 Positive tags: Expert Locksmith
 Negative tags: None
+Random source: tool-executed Python `secrets`
 Chance: [2, 5] -> 5
 Risk: [4] -> 4
 Result: Yes, and
-Twist Counter: 1/3 -> 1/3
+Twist Counter: 1/3 (unchanged)
 ```
 
 When lasting state changes, it displays only the delta:
