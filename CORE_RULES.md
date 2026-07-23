@@ -12,7 +12,7 @@ Use this order when rules or guidance conflict:
 4. Loner Companion as clarification
 5. Optional Loner supplements as inspiration
 
-The Loner 3e Core Rules control known discrepancies. In particular, equal selected Chance and Risk dice produce **Yes, but** and increase the Twist Counter.
+The Loner 3e Core Rules control known discrepancies. Equal selected Chance and Risk dice produce **Yes, but** and increase the Twist Counter.
 
 ## 2. The protagonist
 
@@ -27,6 +27,14 @@ A protagonist is described with words rather than numerical attributes:
 - **Motive**: why it matters
 - **Nemesis**, if one is already established
 - **Luck 6**
+
+Goal, Motive, and Nemesis should grow from the setting and first moments of play. If one is unclear, leave it provisional or blank and let play establish it. Do not delay an otherwise playable opening solely to complete those fields.
+
+Skills and Gear should be specific enough that their fictional permission is understandable. Avoid broad tags that could apply to nearly every challenge. In a setting with codified capabilities, a tag may include a short scope statement, such as:
+
+```text
+Ward-and-divination spellbook: detect active enchantments, trace magical links, and raise brief protective wards.
+```
 
 Other important people, groups, objects, vehicles, places, and hazards may also be described with a Concept and a few relevant tags.
 
@@ -47,23 +55,26 @@ For an uncertain action:
 
 - Relevant positive tags and no relevant negative tags grant **Advantage**.
 - Relevant negative tags and no relevant positive tags impose **Disadvantage**.
-- If both positive and negative tags apply, they cancel and the roll is **Neutral**.
+- If at least one relevant positive tag and at least one relevant negative tag apply, they cancel and the roll is **Neutral**.
+- Do not count, total, or weight tags against one another.
 - Multiple tags do not enlarge the dice pool beyond two Chance dice or two Risk dice.
 
 A tag may also establish permission or impossibility without a roll. A trained pilot can perform ordinary piloting tasks; an unprotected person cannot breathe in vacuum.
 
 ## 4. Scene loop
 
-Each scene has a short-term purpose. Play follows this loop:
+Each scene has one short-term purpose. Play follows this loop:
 
 1. **Establish the scene.** Where is the protagonist, what is happening, and what immediate pressure exists?
 2. **Receive the protagonist's action or decision.**
 3. **Identify the expectation.** What outcome is the protagonist trying to cause?
-4. **Determine whether a roll is needed.**
-5. **Resolve uncertainty with the Oracle.**
-6. **Interpret the binding result in context.**
-7. **Update lasting state and active pressure.**
-8. **Narrate the result and return control to the player.**
+4. **Identify the immediate stakes.** What consequences are already inherent in attempting this now?
+5. **Determine whether a roll is needed.**
+6. **Resolve uncertainty with the Oracle.**
+7. **Interpret the binding result in context.**
+8. **Update lasting state and active pressure.**
+9. **End or continue the scene.**
+10. **Narrate the result and return control to the player.**
 
 ## 5. When to roll
 
@@ -89,17 +100,23 @@ Explain the obstacle through the fiction. The player may change their approach, 
 
 Use the Oracle when success and failure are both plausible and the difference matters.
 
-Before rolling, frame one focused Yes/No question around the intended outcome.
+Before rolling, frame one focused Yes/No question around the intended outcome and state the immediate stakes already apparent from the committed action.
 
-Good: **Does Mara cross the failing bridge before it collapses?**
+Good:
+
+```text
+Question: Does Mara cross the failing bridge before it collapses?
+Intended outcome: Reach the far side.
+Immediate stakes: Falling or losing the route is already inherent in crossing a collapsing bridge.
+```
 
 Poor: **What happens next?**
 
-Do not combine several independent objectives into one question unless the player is deliberately staking all of them on one decisive attempt.
+Do not combine several independent objectives into one question unless the player deliberately stakes all of them on one decisive attempt.
 
 ## 6. Randomness requirement
 
-Dice values must come from an actual random-number function in an available tool or from player-supplied physical/digital dice.
+Dice values must come from an actual random-number function in an available tool or from player-supplied physical or digital dice.
 
 The model must never invent plausible-looking dice values in prose.
 
@@ -177,6 +194,8 @@ A consequence or benefit should:
 - create a changed situation rather than decorative wording;
 - preserve the exact success or failure required by the result.
 
+A plain **No** may include consequences that are unavoidable because the protagonist already committed to the attempt. It does not authorize a new escalation unrelated to those stakes. Reserve added worsening for **No, and**, a previously declared cost, or the completion of an established threat.
+
 Common costs and escalations include lost time, worsened position, exposure, damaged or lost gear, a new condition, a strained relationship, a closed opportunity, or advancement of an active threat.
 
 Common benefits include saved time, improved position, useful information, preserved resources, delayed danger, or a new opportunity.
@@ -208,11 +227,11 @@ When the counter reaches 3:
 
 A twist may reveal or activate something plausible. It may not contradict established facts merely to create surprise.
 
-## 10. Conflicts
+## 10. Conflicts and sustained hazards
 
 A conflict may be physical, social, mental, environmental, or any other struggle in which opposing pressure matters.
 
-Choose the lightest resolution method that fits.
+At the start of a meaningful conflict or sustained hazard, choose the lightest resolution method that fits. State the method when the choice affects how later rolls will work.
 
 ### One-roll conflict
 
@@ -224,13 +243,11 @@ Use this when the conflict is brief, secondary, or best treated as one turning p
 
 Resolve each meaningful action with its own Oracle question.
 
-Use this when positioning, environment, tactics, argument, or changing objectives matter more than attrition.
-
-This is the default for most important conflicts.
+Use this when positioning, environment, tactics, argument, or changing objectives matter more than attrition. This is the default for most important conflicts.
 
 ### Optional Harm and Luck conflict
 
-Use Harm and Luck only when several exchanges and mounting attrition would improve the scene.
+Use Harm and Luck when several exchanges and mounting attrition would improve the scene.
 
 The protagonist begins with Luck 6. Give a significant opposing side its own Luck pool, normally 6.
 
@@ -250,6 +267,8 @@ When a side reaches 0 Luck, stop rolling. That side loses the conflict.
 Defeat does not automatically mean death. Interpret it according to the established stakes: capture, injury, concession, escape by the opponent, loss of position, exposure, or another decisive reversal.
 
 After the conflict, reset temporary Luck to 6. Persistent injuries, lost gear, damaged relationships, or other fictional consequences remain.
+
+Do not switch into or out of Harm and Luck silently. Explain the change before the next roll. Several consecutive rolls do not by themselves require Harm and Luck.
 
 ## 11. Active threats and pressure
 
@@ -291,6 +310,15 @@ If the player merely repeats the same action, preserve the previous result and d
 
 ## 13. Scene transitions
 
+A scene ends when its short-term purpose is resolved, abandoned, or replaced by a materially different challenge.
+
+At that point:
+
+1. Increment the scene number.
+2. Replace the current scene purpose and immediate situation.
+3. Replace obsolete scene tags with those relevant to the new situation.
+4. Update location and time when they materially changed.
+
 When the next scene follows naturally, frame it directly.
 
 When the next scene's tone is genuinely uncertain, roll 1d6:
@@ -305,17 +333,24 @@ A Meanwhile scene must not reveal information the protagonist could not later kn
 
 Record every lasting change in the current state ledger. During ordinary play, record only the delta rather than repeating the full ledger.
 
+Keep two kinds of information separate:
+
+- **Play profile:** setting source, tone, content boundaries, presentation preferences, and randomness method.
+- **Campaign state:** protagonist, scene, location, threats, entities, fictional facts, unresolved threads, Twist Counter, and roll number.
+
+`established_facts` contains only durable truths about the fiction. It does not contain rules reminders, prose preferences, content boundaries, or tool procedures.
+
 Track only what is useful:
 
 - protagonist tags, Luck, conditions, and important gear;
 - current scene, location, and meaningful time;
 - active threats;
 - important entities and relationships;
-- established facts;
-- unresolved threads;
+- established facts that constrain future play;
+- unresolved threads that still affect decisions;
 - Twist Counter and roll number.
 
-Do not silently reverse a recorded consequence. A correction should be identified as a correction and reflected in the ledger.
+Compress superseded history into current truth. Do not repeat the same fact in several forms. Do not silently reverse a recorded consequence. A correction should be identified as a correction and reflected in the ledger.
 
 ## 15. End of a scene or adventure
 
@@ -327,6 +362,27 @@ After an adventure, tags may change to reflect what happened. Add, remove, or re
 
 ---
 
-## Source and adaptation note
+## Source traceability
 
-This file is a condensed adaptation of Roberto Bisceglie's **Loner 3e**, with explicit additions for tool-backed randomness, active threat clocks, repeated-attempt handling, and LLM-facing state continuity. Those additions are not presented as original Loner rules.
+Native Loner 3e rules summarized here:
+
+- Protagonist structure and specific Skills: **Loner 3e Core Rules, pp. 6–9**.
+- Goal, Motive, and Nemesis may emerge from the first scenes: **pp. 7–9**.
+- Descriptive tags and fictional positioning: **pp. 12–13**.
+- Scene purpose, expectations, and when to test uncertainty: **pp. 18–25**.
+- Advantage, Disadvantage, and tag interaction: **pp. 24–25**.
+- Oracle outcomes and Twist Counter: **pp. 26–34; cheatsheet pp. 64–65**.
+- Three conflict methods and Harm and Luck: **pp. 35–42; cheatsheet pp. 64–65**.
+- Next-scene procedure: **pp. 42–44; cheatsheet pp. 64–65**.
+
+Explicit LLM adaptations:
+
+- tool-backed randomness and visible audit blocks;
+- explicit immediate-stakes display;
+- active threat clocks;
+- no unchanged rerolls;
+- scene-number commits;
+- capability scope statements for ambiguous tags;
+- compact canonical state and portable saves.
+
+These adaptations do not replace the Oracle or add numerical character mechanics. They make decisions a human solo player would hold mentally explicit enough for an LLM to apply consistently, while preserving Loner's fiction-first, emergent, rules-light play.
